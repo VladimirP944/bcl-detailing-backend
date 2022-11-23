@@ -38,7 +38,7 @@ namespace bclDetailingBackend
                 .UseSession()
                 .UseRouting()
                 .UseCors(builder => builder
-                    .WithOrigins(new[] { "http://localhost" })
+                    .WithOrigins(new[] { "http://ec2-18-196-89-84.eu-central-1.compute.amazonaws.com" })
                     .AllowAnyMethod()
                     .AllowAnyHeader()
                     .AllowCredentials()
